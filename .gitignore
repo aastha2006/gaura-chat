@@ -1,0 +1,16 @@
+# Node & build
+node_modules/
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# WebLLM cache / binaries
+mlc_cache/
+webllm_cache/
+*.bin
+*.wasm
+*.model
